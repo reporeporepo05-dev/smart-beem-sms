@@ -6,7 +6,7 @@ import authRouter from './src/server/authRouter.js';
 import appRouter from './src/server/appRouter.js';
 import './src/server/cron.js'; // initialize cron jobs
 
-const PORT = 3000;
+const PORT = process.env.NODE_ENV === 'production' ? (process.env.PORT || 8080) : 3000;
 
 async function startServer() {
   const app = express();
