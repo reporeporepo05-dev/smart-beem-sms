@@ -34,7 +34,6 @@
     "react-dom": "^19.0.1",
     "react-router-dom": "^7.18.0",
     "sequelize": "^6.37.8",
-    "sqlite3": "^6.0.1",
     "sweetalert2": "^11.26.25",
     "tailwind-merge": "^3.6.0",
     "uuid": "^14.0.1",
